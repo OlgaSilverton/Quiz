@@ -1,0 +1,32 @@
+.root {
+    background-color: #61dafb;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2.6rem 6.5rem rgba(0, 0, 0, 0.32),
+        0 2rem 1.7rem rgba(0, 0, 0, 0.1), 0 1.1rem 1.1rem rgba(0, 0, 0, 0.1);
+    transition: transform 300ms ease;
+}
+
+.root:hover {
+    transform: scale(1.02);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.button {
+    border: none;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

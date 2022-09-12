@@ -1,0 +1,12 @@
+.text {
+    margin-right: 1rem;
+}
+
+.time {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #61dafb;
+}

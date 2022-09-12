@@ -1,0 +1,49 @@
+.header {
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hintButton:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.card {
+    margin-bottom: 4rem;
+}
+
+.radio {
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.nextButton {
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 760px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .hintButtons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .question,
+    .nextButton {
+        margin-top: 3rem;
+    }
+}

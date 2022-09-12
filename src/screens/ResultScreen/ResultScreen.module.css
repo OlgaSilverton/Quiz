@@ -1,0 +1,36 @@
+.numbers,
+.times {
+    margin-top: 5rem;
+}
+
+.numbers {
+    display: flex;
+}
+
+.numberCard {
+    padding: 1rem;
+    border-left: 0.1rem solid white;
+}
+
+.numberCard:last-child {
+    border-right: 0.1rem solid white;
+}
+
+.text {
+    height: 4rem;
+}
+
+.number,
+.time {
+    color: #61dafb;
+}
+
+.number {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.timeBlock {
+    margin-bottom: 4rem;
+}

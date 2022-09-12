@@ -1,0 +1,167 @@
+export const MOCK_QUESTIONS = [
+    {
+        id: 'question1',
+        text: 'Where would you find the Sea of Tranquility?',
+        imageUrl: '',
+        answers: [
+            { id: 'question1-answer1', text: 'Bali', correct: false },
+            { id: 'question1-answer2', text: 'The Neverland', correct: false },
+            { id: 'question1-answer3', text: 'The moon', correct: true },
+            { id: 'question1-answer4', text: 'The US', correct: false },
+        ],
+    },
+    {
+        id: 'question2',
+        text: 'What is the seventh planet from the sun?',
+        imageUrl: '',
+        answers: [
+            { id: 'question2-answer1', text: 'Jupiter', correct: false },
+            { id: 'question2-answer2', text: 'Uranus', correct: true },
+            { id: 'question2-answer3', text: 'Venus', correct: false },
+            { id: 'question2-answer4', text: 'Pluto', correct: false },
+        ],
+    },
+    {
+        id: 'question3',
+        text: 'Who invented the rabies vaccine?',
+        imageUrl: '',
+        answers: [
+            { id: 'question3-answer1', text: 'Marie Curie', correct: false },
+            { id: 'question3-answer2', text: 'Avicenna', correct: false },
+            { id: 'question3-answer3', text: 'Robert Koch', correct: false },
+            { id: 'question3-answer4', text: 'Louis Pasteur', correct: true },
+        ],
+    },
+    {
+        id: 'question4',
+        text: 'What is the largest by surface freshwater lake in the world?',
+        imageUrl: '',
+        answers: [
+            { id: 'question4-answer1', text: 'Lake Baikal', correct: false },
+            { id: 'question4-answer2', text: 'Lake Titikaka', correct: false },
+            { id: 'question4-answer3', text: 'Lake Superior', correct: true },
+            { id: 'question4-answer4', text: 'Lake of Tears', correct: false },
+        ],
+    },
+    {
+        id: 'question5',
+        text: 'What is the world\'s longest river?',
+        imageUrl: '',
+        answers: [
+            { id: 'question5-answer1', text: 'Nile', correct: true },
+            { id: 'question5-answer2', text: 'Amazon', correct: false },
+            { id: 'question5-answer3', text: 'Volga', correct: false },
+            { id: 'question5-answer4', text: 'Danube', correct: false },
+        ],
+    },
+    {
+        id: 'question6',
+        text: 'Which is NOT considered to be among the Seven Wonders of the Ancient World?',
+        imageUrl: '',
+        answers: [
+            { id: 'question6-answer1', text: 'The Hanging Gardens of Babylon', correct: false },
+            { id: 'question6-answer2', text: 'The Colossus of Rhodes', correct: false },
+            { id: 'question6-answer3', text: 'The Lighthouse of Alexandria', correct: false },
+            { id: 'question6-answer4', text: 'The Stonehenge', correct: true },
+        ],
+    },
+    {
+        id: 'question7',
+        text: 'Which kind of bulbs were once exchanged as a form of currency?',
+        imageUrl: '',
+        answers: [
+            { id: 'question7-answer1', text: 'Roses', correct: false },
+            { id: 'question7-answer2', text: 'Tulips', correct: true },
+            { id: 'question7-answer3', text: 'Lilys', correct: false },
+            { id: 'question7-answer4', text: 'Sunflowers', correct: false },
+        ],
+    },
+    {
+        id: 'question8',
+        text: 'How many valves does a trumpet have?',
+        imageUrl: '',
+        answers: [
+            { id: 'question8-answer1', text: '1', correct: false },
+            { id: 'question8-answer2', text: '2', correct: false },
+            { id: 'question8-answer3', text: '3', correct: true },
+            { id: 'question8-answer4', text: '4', correct: false },
+        ],
+    },
+    {
+        id: 'question9',
+        text: 'Who wrote the novel "Death in Venice", which was later made into a film of the same name?',
+        imageUrl: '',
+        answers: [
+            { id: 'question9-answer1', text: 'Thomas Mann', correct: true },
+            { id: 'question9-answer2', text: 'William Shakespeare', correct: false },
+            { id: 'question9-answer3', text: 'John Donn', correct: false },
+            { id: 'question9-answer4', text: 'Giovanni Boccaccio', correct: false },
+        ],
+    },
+    {
+        id: 'question10',
+        text: 'May Queen, Wisley Crab, Foxwhelps and Lane\'s Prince Albert are all names of what?',
+        imageUrl: '',
+        answers: [
+            { id: 'question10-answer1', text: 'Pears', correct: false },
+            { id: 'question10-answer2', text: 'Peaches', correct: false },
+            { id: 'question10-answer3', text: 'Apples', correct: true },
+            { id: 'question10-answer4', text: 'Cocktails', correct: false },
+        ],
+    },
+    {
+        id: 'question11',
+        text: 'What colour is Absynthe?',
+        imageUrl: '',
+        answers: [
+            { id: 'question11-answer1', text: 'Green', correct: true },
+            { id: 'question11-answer2', text: 'Blue', correct: false },
+            { id: 'question11-answer3', text: 'Orange', correct: false },
+            { id: 'question11-answer4', text: 'White', correct: false },
+        ],
+    },
+    {
+        id: 'question12',
+        text: 'How many crocus flowers does it take to make a pound of saffron?',
+        imageUrl: '',
+        answers: [
+            { id: 'question12-answer1', text: 'About 1,000 flowers', correct: false },
+            { id: 'question12-answer2', text: 'About 25,000 flowers', correct: false },
+            { id: 'question12-answer3', text: 'About 40,000 flowers', correct: false },
+            { id: 'question12-answer4', text: 'About 75,000 flowers', correct: true },
+        ],
+    },
+    {
+        id: 'question13',
+        text: 'How many pedals do most modern pianos have?',
+        imageUrl: '',
+        answers: [
+            { id: 'question13-answer1', text: '0', correct: false },
+            { id: 'question13-answer2', text: '1', correct: false },
+            { id: 'question13-answer3', text: '2', correct: false },
+            { id: 'question13-answer4', text: '3', correct: true },
+        ],
+    },
+    {
+        id: 'question14',
+        text: 'What was Louis Armstrong\'s chosen form of music?',
+        imageUrl: '',
+        answers: [
+            { id: 'question14-answer1', text: 'Blues', correct: false },
+            { id: 'question14-answer2', text: 'Jazz', correct: true },
+            { id: 'question14-answer3', text: 'Rock', correct: false },
+            { id: 'question14-answer4', text: 'House', correct: false },
+        ],
+    },
+    {
+        id: 'question15',
+        text: 'Name the fictional character whose household duties did not prevent her determination to dance.',
+        imageUrl: '',
+        answers: [
+            { id: 'question15-answer1', text: 'Dorothy', correct: false },
+            { id: 'question15-answer2', text: 'Jasmin', correct: false },
+            { id: 'question15-answer3', text: 'Cinderella', correct: true },
+            { id: 'question15-answer4', text: 'Belle', correct: false },
+        ],
+    },
+];
